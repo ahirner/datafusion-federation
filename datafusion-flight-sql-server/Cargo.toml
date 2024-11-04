@@ -13,7 +13,6 @@ path = "src/lib.rs"
 [dependencies]
 arrow-flight.workspace = true
 arrow.workspace = true
-datafusion-federation = { workspace = true, features = ["sql"] }
 datafusion-substrait.workspace = true
 datafusion.workspace = true
 futures.workspace = true
@@ -21,8 +20,6 @@ log = "0.4.22"
 once_cell = "1.19.0"
 prost = "0.13.1"
 tonic.workspace = true
-async-trait.workspace = true 
+async-trait.workspace = true
 
 [dev-dependencies]
-tokio.workspace = true
-datafusion-flight-sql-table-provider = { path = "../datafusion-flight-sql-table-provider" }
