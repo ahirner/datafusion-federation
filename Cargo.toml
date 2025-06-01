@@ -26,8 +26,3 @@ tokio = { version = "1.41", features = ["full"] }
 duckdb = { git = "https://github.com/spiceai/duckdb-rs.git", rev = "69ae7518ee093a1b070e9e4e6f011ef353431086" } # spiceai-1.1.3-backported-arrow-55
 
 datafusion-federation = { path = "./datafusion-federation" }
-
-datafusion = { git = "https://github.com/spiceai/datafusion.git", rev = "b5c62f29d2c70c5331ff50015b67b5e1cafcd578" }               # spiceai-47
-datafusion-expr = { git = "https://github.com/spiceai/datafusion.git", rev = "b5c62f29d2c70c5331ff50015b67b5e1cafcd578" }          # spiceai-47
-datafusion-physical-expr = { git = "https://github.com/spiceai/datafusion.git", rev = "b5c62f29d2c70c5331ff50015b67b5e1cafcd578" } # spiceai-47
-datafusion-physical-plan = { git = "https://github.com/spiceai/datafusion.git", rev = "b5c62f29d2c70c5331ff50015b67b5e1cafcd578" } # spiceai-47
